@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="data/style.css">
+</head>
+<body>
+  <div class="p-container">
+    <div class="points">
+      <h4 class="point" id="gl">Good Luck : 0</h4>
+      <h4 class="point" id="bl">Bad Luck : 0</h4></div>
+    <div id="alert" class="alert">Find Ace</div>
+    <div class="container">
+        <div class="img"><img src="data/Untitled design/1.svg" alt="cards" onclick="game(1)" id="card1"></div>
+        <div class="img"><img src="data/Untitled design/1.svg" alt="cards" onclick="game(2)" id="card2"></div>
+        <div class="img"><img src="data/Untitled design/1.svg" alt="cards" onclick="game(3)" id="card3"></div>
+    </div>
+    <button onclick="reloadPage()">RESET</button>
+  </div>
+  <script src="data/game.js"></script>
+</body>
+</html>
